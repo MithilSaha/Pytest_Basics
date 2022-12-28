@@ -1,0 +1,5 @@
+pytest ---> It will run all python files that starts with test_ or ends with _test.
+python -m python ---> Incase only pytest commnad does not work then use this command
+pytest -v <filename with .py extension> ---> It will run the specific file
+pytest -v <filename with .py extension> -s ---> It will show more details about test cases in terminal
+pytest -v <filename with .py extension>::<function name that starts with test_> ---> It will run the specific test function for the specifice test file.s
